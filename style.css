@@ -1,0 +1,21 @@
+header {
+    background-color: #50455C;
+    color: #fff;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+
+}
+
+
+
+@media (min-width: 1200px) {
+
+}
+
+
