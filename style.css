@@ -11,6 +11,7 @@ nav ul li a {
 
 .card img {
     height: 100%;
+    padding: 3rem;
 }
 
 .project-grid {
@@ -29,7 +30,7 @@ footer {
     color: #fff;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 
