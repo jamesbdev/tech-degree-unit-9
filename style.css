@@ -3,6 +3,10 @@ header {
     color: #fff;
 }
 
+/* header nav {
+    text-transform: uppercase;
+} */
+
 nav ul li a {
     color: #fff;
     text-decoration: none;
@@ -10,7 +14,7 @@ nav ul li a {
 }
 
 .card img {
-    height: 100%;
+    height: auto;
     padding: 3rem;
 }
 
@@ -31,6 +35,20 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+}
+
+.contact-icon {
+    height: 2.5rem;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.contact-links li {
+    list-style-type: none;
 }
 
 
