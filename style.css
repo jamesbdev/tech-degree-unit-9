@@ -14,9 +14,12 @@ nav ul li a {
 }
 
 .card img {
-    height: auto;
+    height: 20rem;
+    width: 20rem;
     padding: 3rem;
 }
+
+
 
 .project-grid {
     display: grid;
@@ -28,6 +31,11 @@ nav a:hover {
     border-bottom: 1px solid #fff;
 }
 
+.icon-copyright {
+    display: flex;
+    flex-direction: column;
+}
+
 footer {
     min-height: 17rem;
     background-color: #50455C;
@@ -35,6 +43,11 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
 }
 
 .contact-icon {
