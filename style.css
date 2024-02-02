@@ -64,6 +64,36 @@ footer a {
     list-style-type: none;
 }
 
+/*** Modal ***/
+
+/* pop up */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    position: relative;
+    top: 5rem;
+    margin: 0 auto;
+    width: 50%;
+    padding: 2rem;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    font-size: 2rem;
+}
+
 
 
 @media (min-width: 768px) {
