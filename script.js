@@ -25,7 +25,7 @@ const showModal = (data) => {
             <span class="close">&times;</span>
             <h2>${data.title}</h2>
             <p>${data.description}</p>
-            <p>Technologies used: ${data.skills}</p>
+            <p><strong>Technologies used:</strong> ${data.skills}</p>
             <img src="${data.img}" alt="modal image">
             <a href="${data.link_url}" class="btn btn-primary" target="_blank">${data.link_text}</a>
 

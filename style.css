@@ -83,8 +83,19 @@ footer a {
     position: relative;
     top: 5rem;
     margin: 0 auto;
-    width: 50%;
-    padding: 2rem;
+    width: 90%;
+    padding: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.modal-content h2 {
+    margin-bottom: 0;
+}
+
+.modal-content p {
+    margin-bottom: 0;
 }
 
 .close {
@@ -104,6 +115,11 @@ footer a {
     .card {
         width: 100%;
     }
+
+    .modal-content {
+        width: 55%;
+        padding: 1.5rem;
+    }
 }
 
 
@@ -114,6 +130,10 @@ footer a {
     }
     .card {
         width: 100%;
+    }
+
+    .modal-content {
+        width: 40%;
     }
 }
 
