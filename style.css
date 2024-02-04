@@ -28,6 +28,7 @@ nav ul li a {
     height: 20rem;
     width: 20rem;
     padding: 3rem;
+    margin: 0 auto;
 }
 
 .btn-primary {
