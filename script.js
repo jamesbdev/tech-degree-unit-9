@@ -9,7 +9,7 @@ const modalData = [{
     link_url: 'https://jamesbdev.github.io/tech-degree-unit-8/'
 }, {
     title: 'Web app dashboard',
-    description: 'In this project I used HTML, CSS, JavaScript to create a dashboard for a fictional company application. I used the graph.js library to create graph models using data. There is also a search auto-complete for the employee messaging feature, a form validation using JavaScript. I also added a way to save the user settings using local storage.',
+    description: 'In this project I used HTML, CSS, JavaScript to create a dashboard for a fictional company application. I used the graph.js library to create graph models using data. There is a search auto-complete for the employee messaging feature, a form validation using JavaScript. I also added a way to save the user settings using local storage.',
     skills: 'HTML, CSS, JavaScript, graph.js',
     img: 'assets/images/unit-7-project.png',
     link_text: 'View project',

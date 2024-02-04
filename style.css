@@ -1,6 +1,17 @@
+
+
+body {
+    --main-bg-color: #50455C;
+    --pink: #F2386E;
+    --orange: #F24938;
+    --light-orange: #F26938;
+    --purple: #C028F5;
+}
+
 header {
-    background-color: #50455C;
+    /* background-color: #50455C; */
     color: #fff;
+    background: linear-gradient(90deg, #e66465, var(--main-bg-color));
 }
 
 /* header nav {
@@ -19,6 +30,15 @@ nav ul li a {
     padding: 3rem;
 }
 
+.btn-primary {
+    background-color: #50455C;
+    border: 1px solid #50455C;
+}
+
+.btn-primary:hover {
+    background: var(--purple);
+    border: 1px solid var(--purple);
+}
 
 
 .project-grid {
@@ -38,7 +58,8 @@ nav a:hover {
 
 footer {
     min-height: 17rem;
-    background-color: #50455C;
+    /* background-color: #50455C; */
+    background: linear-gradient(90deg, var(--main-bg-color), #e66465);
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -81,7 +102,7 @@ footer a {
 .modal-content {
     background-color: #fefefe;
     position: relative;
-    top: 5rem;
+    top: 3rem;
     margin: 0 auto;
     width: 90%;
     padding: 1.4rem;
