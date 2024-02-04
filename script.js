@@ -16,7 +16,7 @@ const modalData = [{
     link_url: 'https://jamesbdev.github.io/tech-degree-unit-7/'
 } , {
     title: 'Game Show App',
-    description: 'I used JavaScript to create a game where the user guesses letters. The game ends with the user guessing the whole phrase or if the user misses 5 times. I used JavaScript to store data for 6 phrases and display them randomly. The code checks if the letter selected by the user matches letters in the phrase. If it does the letters are displayed on the screen.',
+    description: 'I used JavaScript to create a game where the user guesses letters. The game ends with the user guessing the whole phrase or if the user misses 5 times. It stores data for 6 phrases and display them randomly. The code checks if the letter selected by the user matches letters in the phrase. If it does the letters are displayed on the screen.',
     skills: 'HTML, CSS, JavaScript',
     img: 'assets/images/unit-6-project.png',
     link_text: 'View project',
@@ -69,26 +69,31 @@ const showModal = (data) => {
     `;
     //append modal to the body
     document.body.appendChild(modal)
+    //display modal
     modal.style.display = 'block';
-    const close = document.querySelector('.close')
-    close.addEventListener('click', () => {
-        modal.remove()
-    })
+    //function to close modal
+    const closeModal = () => {
+        //get the close button
+        const close = document.querySelector('.close')
+        //add event listener
+        close.addEventListener('click', () => {
+            //hide modal
+            modal.remove()
+        })
+    }
+    closeModal();
+  
 }
 
+//get the card buttons
 const buttons = document.querySelectorAll(".open-modal");
-const button = document.querySelector('.open-modal');
 
-button.addEventListener('click', (event) => {
-    event.preventDefault();
-    showModal(modalData[0]);
+//loop through buttons, add an event listener and open the modal 
+buttons.forEach((element, index) => {
+    element.addEventListener('click', (event) => {
+        event.preventDefault();
+        showModal(modalData[index]);
+    });
 });
 
-// buttons.forEach(element, index => {
-//     element.addEventListener('click', (event) => {
-//         console.log('clicked');
-//         event.preventDefault();
-//         showModal(modalData[index]);
-//     });
-// });
 
