@@ -43,7 +43,7 @@ const modalData = [{
     link_text: 'View project',
     link_url: 'https://jamesbdev.github.io/tech-degree-unit-3/'
 }
-]
+];
 
 //Displays a modal with the project information
 const showModal = (data) => {
@@ -102,7 +102,6 @@ const search = document.getElementById('search');
 
 search.addEventListener('keyup', (event) => {
     const value = event.target.value.toLowerCase();
-    console.log(value);
     const cards = document.querySelectorAll('.card');
     cards.forEach((card) => {
         const title = card.querySelector('h5').textContent.toLowerCase();
