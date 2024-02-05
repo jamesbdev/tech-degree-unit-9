@@ -14,14 +14,18 @@ header {
     background: linear-gradient(90deg, #e66465, var(--main-bg-color));
 }
 
-/* header nav {
+header nav {
     text-transform: uppercase;
-} */
+}
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
     padding-bottom: 0.2rem;
+}
+
+.card {
+    /* min-height: 32rem; */
 }
 
 .card img {

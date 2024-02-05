@@ -25,14 +25,14 @@ const modalData = [{
     title: 'Interactive Photo Gallery',
     description: ' A photo gallery built using CSS grids to display the images. I used a JavaScript plug in to display a modal when the user clicks on the images. The modal contains the image in full size with a description. I also implemented a searching functionality. It uses JavaScript to match the value of the input with the images descriptions.',
     skills: 'HTML, CSS, JavaScript',
-    img: 'assets/images/project 5.png',
+    img: 'assets/images/photo-gallery.png',
     link_text: 'View project',
     link_url: 'https://jamesbdev.github.io/tech-degree-unit-5/'
 }, {
     title: 'Web style guide',
     description: 'Using SCSS to create styling for a web style guide. I used SCSS to create a modular file system. I also used it to store color and breakpoint variables.',
     skills: 'HTML, SCSS',
-    img: 'assets/images/unit-4-project.png',
+    img: 'assets/images/style-guide.png',
     link_text: 'View project',
     link_url: 'https://jamesbdev.github.io/tech-degree-unit-4/'
 }, {
