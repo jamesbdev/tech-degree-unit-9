@@ -96,4 +96,23 @@ buttons.forEach((element, index) => {
     });
 });
 
+//add search functionality 
+
+const search = document.getElementById('search');
+
+search.addEventListener('keyup', (event) => {
+    const value = event.target.value.toLowerCase();
+    console.log(value);
+    const cards = document.querySelectorAll('.card');
+    cards.forEach((card) => {
+        const title = card.querySelector('h5').textContent.toLowerCase();
+        if (title.indexOf(value) !== -1) {
+            card.style.display = 'block';
+        } else {
+            card.style.display = 'none';
+        }
+    });
+
+});
+
 
