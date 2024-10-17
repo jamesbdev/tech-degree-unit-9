@@ -57,6 +57,22 @@ const modalData = [{
     img_alt: 'employee pop up with their name and contact details',
     link_text: 'View project',
     link_url: 'https://jamesbdev.github.io/fullstack-js-unit-5/'
+}, {
+    title: 'Sudent list with pagination',
+    description: 'With JavaScript, I displayed a list of students with pagination.',
+    skills: 'HTML, CSS, JavaScript',
+    img: 'assets/images/pagination_project-3.png',
+    img_alt: 'student cards with profile photos and name, displayed in a grid',
+    link_text: 'View project',
+    link_url: 'https://jamesbdev.github.io/full-stack-js-unit-2/'
+}, {
+    title: 'Random quote generator',
+    description: 'displays a random quote from a list of quotes',
+    skills: 'HTML, CSS, JavaScript',
+    img: 'assets/images/quote_generator.png',
+    img_alt: 'a quote written in a large font',
+    link_text: 'View project',
+    link_url: 'https://jamesbdev.github.io/fsjs-tech-degree-unit-1/' 
 }
 ];
 
