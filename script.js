@@ -42,6 +42,21 @@ const modalData = [{
     img: 'assets/images/html_form.png',
     link_text: 'View project',
     link_url: 'https://jamesbdev.github.io/tech-degree-unit-3/'
+} , {
+    title: 'Game show app 2',
+    description: 'I used JavaScript Object Oriented programming to create a web based game where the user needs to guess a phrase',
+    skills: 'HTML, CSS, JavaScript',
+    img: 'assets/images/game_show_app_2.png',
+    link_text: 'View project',
+    link_url: 'https://jamesbdev.github.io/full-stack-js-unit-4/'
+} , {
+    title: 'Employee directory 2',
+    description: 'Fetches data from API and display employee cards. User can click on a card and view employee information',
+    skills: 'HTML, CSS, JavaScript',
+    img: 'assets/images/employee_directory_2.png',
+    img_alt: 'employee pop up with their name and contact details',
+    link_text: 'View project',
+    link_url: 'https://jamesbdev.github.io/fullstack-js-unit-5/'
 }
 ];
 
@@ -62,7 +77,7 @@ const showModal = (data) => {
             <h2>${data.title}</h2>
             <p>${data.description}</p>
             <p><strong>Technologies used:</strong> ${data.skills}</p>
-            <img src="${data.img}" alt="modal image">
+            <img src="${data.img}" alt="${data.img_alt}">
             <a href="${data.link_url}" class="btn btn-primary" target="_blank">${data.link_text}</a>
 
         </div>
