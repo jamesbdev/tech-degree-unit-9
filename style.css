@@ -160,6 +160,66 @@ footer a {
     font-size: 2rem;
 }
 
+.skills-container {
+    width: 100%;
+}
+
+.progress-bar {
+    width: 100%;
+    background: rgb(225, 223, 223);
+    height: 25px;
+    margin-bottom: 1rem;
+}
+
+.html {
+    width: 70%;
+}
+
+.skill {
+    background: rgb(226 99 100);
+    height: 25px;
+}
+
+.css {
+    width: 80%;
+}
+
+.js {
+    width: 60%;
+}
+
+.liquid {
+    width: 50%;
+}
+
+.node {
+    width: 40%;
+}
+
+.express {
+    width: 40%;
+}
+
+.git {
+    width: 40%;
+}
+
+.tailwind {
+    width: 30%;
+}
+
+.scss {
+    width: 40%;
+}
+
+.react {
+    width: 40%;
+}
+
+.vue {
+    width: 30%;
+}
+
 
 
 @media (min-width: 768px) {
@@ -184,6 +244,12 @@ footer a {
         width: 60%;
     }
 
+    .skills-container {
+        width: 80%;
+    }
+
+ 
+
 
 }
 
@@ -207,6 +273,18 @@ footer a {
 
     .card img {
         width: 60%;
+    }
+
+    .skills-container {
+        width: 60%;
+    }
+
+
+}
+
+@media (min-width: 1400px) {
+    .skills-container {
+        width: 40%;
     }
 }
 
